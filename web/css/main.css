@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13/08/2022, 02:36:44
+    Author     : pablouni
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-background{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(131,91,32,1) 85%, rgba(228,147,83,1) 100%);
+    box-shadow: 6px 2px 5px black;
+    color: white;
+}
+
+nav a{
+    color: white !important;
+}
+
+.front-page{
+    background-image: url('https://ak.picdn.net/shutterstock/videos/25948763/thumb/10.jpg?ip=x480');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.front-page h2{
+    font-family: 'Space Grotesk', sans-serif;
+    overflow: hidden;transform: translateY(-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*Animation*/
+.anim-typewriter {
+      animation: typewriter 4s steps(56) 1s 1 normal,
+      blinkTextCursor 500ms steps(56) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 16em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+.btn-color{
+    background-color: white;
+    color: black;
+}
+
+.front-page h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5rem;
+}
