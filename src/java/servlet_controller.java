@@ -19,6 +19,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = {"/servlet_controller"})
 public class servlet_controller extends HttpServlet {
 
+    books libro;
+    
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -32,7 +34,13 @@ public class servlet_controller extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
+            libro = new books(
+                    request.getParameter("codigo"),
+                    request.getParameter("book_name"),
+                    request.getParameter("pasta"),
+                    request.getParameter("editorial"),
+                    request.getParameter("fecha")
+            );
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
