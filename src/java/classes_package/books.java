@@ -22,5 +22,45 @@ public class books {
         this.tipo_pasta=tipo_pasta;
         this.publicacion=publicacion;
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getEditorial() {
+        return editorial;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
+
+    public String getTipo_pasta() {
+        return tipo_pasta;
+    }
+
+    public void setTipo_pasta(String tipo_pasta) {
+        this.tipo_pasta = tipo_pasta;
+    }
+
+    public String getPublicacion() {
+        return publicacion;
+    }
+
+    public void setPublicacion(String publicacion) {
+        this.publicacion = publicacion;
+    }
     
 }

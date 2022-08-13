@@ -47,7 +47,7 @@ public class servlet_controller extends HttpServlet {
             out.println("<title>Servlet servlet_controller</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet servlet_controller at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Nombre del libro " + libro.getNombre() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
