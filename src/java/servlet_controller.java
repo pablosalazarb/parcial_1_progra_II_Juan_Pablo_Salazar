@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
  */
 
+import classes_package.books;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
