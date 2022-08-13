@@ -36,6 +36,15 @@ nav a{
     color: white;
 }
 
+.books-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .front-page h2{
     font-family: 'Space Grotesk', sans-serif;
     overflow: hidden;transform: translateY(-50%);
